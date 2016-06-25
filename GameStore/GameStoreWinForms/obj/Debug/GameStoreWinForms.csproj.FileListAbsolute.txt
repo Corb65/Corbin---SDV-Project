@@ -1,0 +1,30 @@
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\GameStoreWinForms\bin\Debug\GameStoreWinForms.exe.config
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\GameStoreWinForms\bin\Debug\GameStoreWinForms.exe
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\GameStoreWinForms\bin\Debug\GameStoreWinForms.pdb
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.csprojResolveAssemblyReference.cache
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.frmDigitalGame.resources
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.frmGenericGame.resources
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.frmGenre.resources
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.frmMain.resources
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.frmOrderList.resources
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.frmPhysical.resources
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.InputBox.resources
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.Properties.Resources.resources
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.csproj.GenerateResource.Cache
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.exe
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.pdb
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\GameStoreWinForms\bin\Debug\GameStoreWinForms.exe.config
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\GameStoreWinForms\bin\Debug\GameStoreWinForms.exe
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\GameStoreWinForms\bin\Debug\GameStoreWinForms.pdb
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.csprojResolveAssemblyReference.cache
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.frmDigitalGame.resources
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.frmGenericGame.resources
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.frmGenre.resources
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.frmMain.resources
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.frmOrderList.resources
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.frmPhysical.resources
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.InputBox.resources
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.Properties.Resources.resources
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.csproj.GenerateResource.Cache
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.exe
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\GameStoreWinForms\obj\Debug\GameStoreWinForms.pdb

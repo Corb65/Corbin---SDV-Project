@@ -1,0 +1,19 @@
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\Game3Selfhost\bin\Debug\Game3Selfhost.exe.config
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\Game3Selfhost\bin\Debug\Game3Selfhost.exe
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\Game3Selfhost\bin\Debug\Game3Selfhost.pdb
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\Game3Selfhost\bin\Debug\EntityFramework.dll
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\Game3Selfhost\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\Game3Selfhost\bin\Debug\EntityFramework.xml
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\Game3Selfhost\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\Game3Selfhost\obj\Debug\Game3Selfhost.csprojResolveAssemblyReference.cache
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\Game3Selfhost\obj\Debug\Game3Selfhost.exe
+C:\Users\Corbin Dickens\Desktop\SDV Project\GameStore\Game3Selfhost\obj\Debug\Game3Selfhost.pdb
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\Game3Selfhost\bin\Debug\Game3Selfhost.exe.config
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\Game3Selfhost\bin\Debug\Game3Selfhost.exe
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\Game3Selfhost\bin\Debug\Game3Selfhost.pdb
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\Game3Selfhost\bin\Debug\EntityFramework.dll
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\Game3Selfhost\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\Game3Selfhost\bin\Debug\EntityFramework.xml
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\Game3Selfhost\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\Game3Selfhost\obj\Debug\Game3Selfhost.exe
+C:\Users\Corbin Dickens\Desktop\Corbin - SDV Project\GameStore\Game3Selfhost\obj\Debug\Game3Selfhost.pdb

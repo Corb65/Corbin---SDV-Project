@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DatabaseModelStoreContainer" CdmEntityContainer="DatabaseEntities">
+    <EntitySetMapping Name="Games">
+      <EntityTypeMapping TypeName="IsTypeOf(DatabaseModel.Game)">
+        <MappingFragment StoreEntitySet="Game">
+          <ScalarProperty Name="GameCode" ColumnName="GameCode" />
+          <ScalarProperty Name="GameGenre" ColumnName="GameGenre" />
+          <ScalarProperty Name="DateTimeLastMod" ColumnName="DateTimeLastMod" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Publisher" ColumnName="Publisher" />
+          <ScalarProperty Name="GameName" ColumnName="GameName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(DatabaseModel.Physical)">
+        <MappingFragment StoreEntitySet="Game">
+          <ScalarProperty Name="GameCode" ColumnName="GameCode" />
+          <ScalarProperty Name="ShippingCost" ColumnName="ShippingCost" />
+          <ScalarProperty Name="MediaType" ColumnName="MediaType" />
+          <Condition ColumnName="Media" Value="P" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(DatabaseModel.Digital)">
+        <MappingFragment StoreEntitySet="Game">
+          <ScalarProperty Name="GameCode" ColumnName="GameCode" />
+          <ScalarProperty Name="GameKey" ColumnName="GameKey" />
+          <ScalarProperty Name="Platform" ColumnName="Platform" />
+          <Condition ColumnName="Media" Value="D" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Genres">
+      <EntityTypeMapping TypeName="DatabaseModel.Genre">
+        <MappingFragment StoreEntitySet="Genre">
+          <ScalarProperty Name="GenreName" ColumnName="GenreName" />
+          <ScalarProperty Name="GenreDescription" ColumnName="GenreDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="DatabaseModel.Order">
+        <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="OrderNumber" ColumnName="OrderNumber" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="ItemCount" ColumnName="ItemCount" />
+          <ScalarProperty Name="PriceATOP" ColumnName="PriceATOP" />
+          <ScalarProperty Name="OrderTimestamp" ColumnName="OrderTimestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

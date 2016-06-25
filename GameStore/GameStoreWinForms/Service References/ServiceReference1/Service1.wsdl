@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://f00031157:50800/Service1?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://f00031157:50800/Service1?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://f00031157:50800/Service1?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://f00031157:50800/Service1?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Selfhost" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetGenreNames_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGenreNames" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGenreNames_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGenreNamesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetOrderSummary_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOrderSummary" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetOrderSummary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOrderSummaryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGenre_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGenre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGenre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGenreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteOrder" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGenre_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGenre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGenre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGenreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertGenre_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertGenre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertGenre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertGenreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGenre_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGenre" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGenre_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGenreResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGameByKey_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGameByKey" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGameByKey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGameByKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGame" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertGame" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertGameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGame_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGame" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteGame_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteGameResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetGenreNames">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGenreNames" message="tns:IService1_GetGenreNames_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGenreNamesResponse" message="tns:IService1_GetGenreNames_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderSummary">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetOrderSummary" message="tns:IService1_GetOrderSummary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetOrderSummaryResponse" message="tns:IService1_GetOrderSummary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGenre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGenre" message="tns:IService1_GetGenre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGenreResponse" message="tns:IService1_GetGenre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteOrder" message="tns:IService1_DeleteOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteOrderResponse" message="tns:IService1_DeleteOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGenre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateGenre" message="tns:IService1_UpdateGenre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateGenreResponse" message="tns:IService1_UpdateGenre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertGenre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertGenre" message="tns:IService1_InsertGenre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertGenreResponse" message="tns:IService1_InsertGenre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGenre">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteGenre" message="tns:IService1_DeleteGenre_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteGenreResponse" message="tns:IService1_DeleteGenre_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGameByKey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteGameByKey" message="tns:IService1_DeleteGameByKey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteGameByKeyResponse" message="tns:IService1_DeleteGameByKey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateGame" message="tns:IService1_UpdateGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateGameResponse" message="tns:IService1_UpdateGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertGame" message="tns:IService1_InsertGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertGameResponse" message="tns:IService1_InsertGame_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGame">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteGame" message="tns:IService1_DeleteGame_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteGameResponse" message="tns:IService1_DeleteGame_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetGenreNames">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGenreNames" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOrderSummary">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetOrderSummary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGenre">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGenre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOrder">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGenre">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateGenre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertGenre">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertGenre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGenre">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteGenre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGameByKey">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteGameByKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGame">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertGame">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteGame">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteGame" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://f00031157:50800/Service1" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
